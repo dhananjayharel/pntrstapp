@@ -4,7 +4,7 @@
   "angular-cli": {},
   "scripts": {
     "ng": "./node_modules/@angular/cli/bin/ng",
-    "start": "ng serve",
+    "start": "ng serve --host 0.0.0.0 --disable-host-check",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
